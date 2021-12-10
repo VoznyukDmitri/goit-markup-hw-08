@@ -1,0 +1,43 @@
+.effect-studio:hover svg rect,
+.effect-studio:focus svg rect {
+  stroke-width: 6;
+  stroke-dasharray: 45, 245;
+  stroke-dashoffset: 160;
+}
+.effect-portfolio:hover svg rect,
+.effect-portfolio:focus svg rect {
+  stroke-width: 6;
+  stroke-dasharray: 77, 225;
+  stroke-dashoffset: 145;
+}
+.effect-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.effect-svg rect {
+  stroke: var(--color-link-hover);
+  stroke-width: 0;
+  transition: 0.4s;
+  stroke-dasharray: 300, 0;
+}
+/* Підкреслення навігації */
+.nav__site li {
+  position: relative;
+}
+.activ::after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 0;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--color-link-hover);
+  transition: width 300ms var(--kub);
+}
+.activ:hover::after,
+.activ:focus::after {
+  width: 0%;
+}

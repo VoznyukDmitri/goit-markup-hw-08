@@ -1,0 +1,47 @@
+button {
+  cursor: pointer;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// .logo,
+.nav__link,
+.nav__site,
+.contact-nav,
+.contact-nav__link,
+.benefits,
+.wotwedo__list,
+.team__list,
+// .logo__footer,
+.address__list,
+.address__link,
+.address-real,
+.filter,
+.works,
+.works__link,
+.client__list {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: var(--color-main-background);
+  color: var(--color-title-text);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}

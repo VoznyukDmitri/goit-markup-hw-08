@@ -1,0 +1,118 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--color-footer-hero);
+}
+.footer,
+.address {
+  display: flex;
+  align-items: baseline;
+}
+.address-div {
+  margin-right: 70px;
+}
+.address-real {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--color-real-address);
+}
+.address__link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--color-link-address);
+}
+
+.address__list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+/*----------------- Соцмережі футера---------------- */
+
+.networks--footer__title {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-logo-footer);
+}
+
+/* Подпишитесь на рассылку */
+
+.form-footer {
+  display: block;
+  margin-left: 93px;
+}
+.form-footer__title {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-logo-footer);
+}
+.form-footer__div input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 12px;
+
+  background-color: var(--color-footer-hero);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  outline: none;
+}
+.form-footer__div button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-footer__div button:hover {
+  background: #188ce8;
+}
+
+.plane-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-footer__div {
+  display: flex;
+}
+.plane-icon svg {
+  margin-left: 10px;
+}

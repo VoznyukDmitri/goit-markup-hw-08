@@ -1,0 +1,27 @@
+.technocrack {
+  position: absolute;
+
+  top: 0px;
+  left: 0px;
+  width: 370px;
+  height: 294px;
+  background: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(100%);
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.technocrack__text {
+  margin: 0px;
+  padding: 63px 24px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.works__item:hover .technocrack {
+  transform: translateY(0%);
+}

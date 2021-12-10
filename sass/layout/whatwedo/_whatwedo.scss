@@ -1,0 +1,42 @@
+.wotwedo {
+  padding-top: 0px;
+  padding-bottom: 94px;
+  & h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}
+
+.wotwedo__list {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.wotwedo__item img {
+  display: block;
+}
+.wotwedo__text {
+  margin: 0px;
+  padding-top: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.wotwedo__actions {
+  bottom: 0px;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
