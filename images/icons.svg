@@ -1,7 +1,14 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
+<path d="M6.4 9.6v-0.4h-0.4v0.4h0.4zM6.4 11.733h-0.4v0.4h0.4v-0.4zM25.6 9.6h0.4v-0.4h-0.4v0.4zM25.6 11.733v0.4h0.4v-0.4h-0.4zM25.6 17.067v0.4h0.4v-0.4h-0.4zM6.4 17.067h-0.4v0.4h0.4v-0.4zM25.6 14.933h0.4v-0.4h-0.4v0.4zM6.4 14.933v-0.4h-0.4v0.4h0.4zM25.6 22.4v0.4h0.4v-0.4h-0.4zM6.4 22.4h-0.4v0.4h0.4v-0.4zM25.6 20.267h0.4v-0.4h-0.4v0.4zM6.4 20.267v-0.4h-0.4v0.4h0.4zM6 9.6v2.133h0.8v-2.133h-0.8zM25.6 9.2h-19.2v0.8h19.2v-0.8zM26 11.733v-2.133h-0.8v2.133h0.8zM6.4 12.133h19.2v-0.8h-19.2v0.8zM25.6 16.667h-19.2v0.8h19.2v-0.8zM25.2 14.933v2.133h0.8v-2.133h-0.8zM6.4 15.333h19.2v-0.8h-19.2v0.8zM6.8 17.067v-2.133h-0.8v2.133h0.8zM25.6 22h-19.2v0.8h19.2v-0.8zM25.2 20.267v2.133h0.8v-2.133h-0.8zM6.4 20.667h19.2v-0.8h-19.2v0.8zM6.8 22.4v-2.133h-0.8v2.133h0.8z"></path>
+</symbol>
+<symbol id="icon-close-menu" viewBox="0 0 32 32">
+<path d="M23.733 10.304l-1.504-1.504-5.963 5.963-5.963-5.963-1.504 1.504 5.963 5.963-5.963 5.963 1.504 1.504 5.963-5.963 5.963 5.963 1.504-1.504-5.963-5.963 5.963-5.963z"></path>
+</symbol>
 <symbol id="icon-ok" viewBox="0 0 42 32">
-<path fill="#fff" style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z"></path>
 </symbol>
 <symbol id="icon-mail" viewBox="0 0 43 32">
 <path d="M37.333 0h-32c-2.2 0-3.98 1.8-3.98 4l-0.020 24c0 2.2 1.8 4 4 4h32c2.2 0 4-1.8 4-4v-24c0-2.2-1.8-4-4-4zM36.533 8.5l-14.14 8.84c-0.64 0.4-1.48 0.4-2.12 0l-14.14-8.84c-0.5-0.32-0.8-0.86-0.8-1.44 0-1.34 1.46-2.14 2.6-1.44l13.4 8.38 13.4-8.38c1.14-0.7 2.6 0.1 2.6 1.44 0 0.58-0.3 1.12-0.8 1.44z"></path>

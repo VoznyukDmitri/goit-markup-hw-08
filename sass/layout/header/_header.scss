@@ -1,9 +1,16 @@
-.heder-blok {
+.header-blok {
   display: flex;
   align-items: center;
 }
-.heder-portfolio {
+
+.header-portfolio {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--color-border);
+}
+.mobile__nav {
+  display: none;
+}
+.menu__icon {
+  display: none;
 }

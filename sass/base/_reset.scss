@@ -27,7 +27,8 @@ html {
 .filter,
 .works,
 .works__link,
-.client__list {
+.client__list,
+.mobile__nav a {
   text-decoration: none;
   list-style: none;
 }
@@ -44,4 +45,7 @@ body {
 }
 .link {
   text-decoration: none;
+}
+body.modal-open {
+  overflow: hidden;
 }

@@ -1,14 +1,10 @@
 /* -------------------------------Модалка------------------------- */
 .modal {
   position: relative;
-  width: 528px;
   padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #ffffff;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms var(--kub);
 }
 .backdrop.is-hidden .modal {
@@ -25,11 +21,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 93px 15px 94px 15px;
+
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 250ms var(--kub);
+  overflow: auto;
+  z-index: 10;
 }
 
 .modal__close {
@@ -79,8 +79,8 @@ textarea {
   &-consent {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--color-text);
     & a {
@@ -134,6 +134,7 @@ textarea {
 }
 
 .modal__title {
+  display: block;
   margin-top: 0;
   margin-bottom: 8px;
 
@@ -142,6 +143,7 @@ textarea {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
+  justify-content: center;
 }
 
 .modal__button-form {
@@ -225,4 +227,22 @@ textarea {
   background-image: url('../images/ok.svg');
   background-size: contain;
   background-position: center;
+}
+
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
