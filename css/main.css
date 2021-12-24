@@ -1187,6 +1187,12 @@ body.modal-open {
   padding: 60px 0px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 94px 0px;
+  }
+}
+
 .container {
   width: 100%;
   padding: 0px 15px;
@@ -1244,6 +1250,12 @@ body.modal-open {
   transition: opacity 250ms var(--kub);
   overflow: auto;
   z-index: 10;
+}
+
+@media screen and (min-width: 1200px) {
+  .backdrop {
+    padding: 0;
+  }
 }
 
 .modal__close {
