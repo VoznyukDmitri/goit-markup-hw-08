@@ -673,6 +673,8 @@ body.modal-open {
 @media screen and (min-width: 1200px) {
   .team__title {
     font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
 }
 
@@ -854,6 +856,8 @@ body.modal-open {
   .client__title {
     font-size: 36px;
     line-height: 42px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
 }
 
